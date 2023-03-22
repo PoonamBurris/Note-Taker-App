@@ -1,7 +1,4 @@
 const express = require('express');
-const path = require('path');
-const apiRoutes = require('./routes/api-route');
-const htmlRoutes = require('./routes/index-route');
 
 // Initialize our app variable by setting it to the value of express()
 const app = express();
@@ -12,11 +9,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //require routes
-app.use('/api', apiRoutes);
-app.use('/api', htmlRoutes);
+app.use(require('./routes'));
 
-
-app.use(express.static(path.join(__dirname + './public')))
+app.use(express.static('./public'));
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
