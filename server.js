@@ -10,10 +10,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //require routes
-const apiR = require('./api-route')
-const indexR = require('./index-route')
+require('./routes/api-route')(app);
+require('./routes/index-route')(app);
 
-app.use(express.static(path.join(__dirname + '/public')))
+app.use(express.static(path.join(__dirname + './public')))
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
