@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const  app = require('express').Router();
-const { v4: uuidv4 } = require('uniqid');
+const uniqid = require('uniqid');
 
 //Get request
 app.get('./public/notes.html',(req,res)=>{
@@ -16,7 +16,7 @@ app.get('./public/notes.html',(req,res)=>{
 const newNote = {
     'title': req.body.title,
     'text': req.body.text,
-    'id': uuidv4()
+    'id': uniqid()
 };
 const notes = fs.readFileSync('./db/db.json','utf8');
 const notesJSON = JSON.parse(notes);
