@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const  app = require('express').Router();
-const { v4: uuidv4 } = require('uuid');
+const { v4: uuidv4 } = require('uniqid');
 
 //Get request
 app.get('./public/notes.html',(req,res)=>{
