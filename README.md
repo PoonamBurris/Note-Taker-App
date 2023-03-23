@@ -1,15 +1,11 @@
 ## Pin in notes
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Deployed Heroku App
-https://salty-cliffs-86489.herokuapp.com/
-
 ## Description
   This application can be used by small business owner to be able to write, save and delete notes. This can help users to organize their thoughts and keep track of tasks to be completed.
   
   ## Table of Content
   - [Project Description](#Description)
-  - [Deployed](#Deployed Heroku App)
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
@@ -35,4 +31,7 @@ https://salty-cliffs-86489.herokuapp.com/
   Reach me @ poonam.burris@gmail.com for any further questions regarding this application
   <br>
   - [GitHub]https://github.com/PoonamBurris
+  
+  ## Deployed Heroku App
+  https://salty-cliffs-86489.herokuapp.com/
   
