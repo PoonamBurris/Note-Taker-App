@@ -9,7 +9,7 @@ https://salty-cliffs-86489.herokuapp.com/
   
   ## Table of Content
   - [Project Description](#Description)
-  - [Deployed Heroku App](#Deployed Heroku App)
+  - [Deployed](#Deployed Heroku App)
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
