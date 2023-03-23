@@ -1,7 +1,7 @@
 ## Pin in notes
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-##Deployed Heroku App
+## Deployed Heroku App
 https://salty-cliffs-86489.herokuapp.com/
 
 ## Description
@@ -9,7 +9,7 @@ https://salty-cliffs-86489.herokuapp.com/
   
   ## Table of Content
   - [Project Description](#Description)
-  - [Deployed Heroku App] (#Deployed Heroku App)
+  - [Deployed Heroku App](#Deployed Heroku App)
   - [Installation](#Installation)
   - [Usage](#Usage)
   - [License](#License)
