@@ -34,5 +34,5 @@ https://salty-cliffs-86489.herokuapp.com/
   ## Questions
   Reach me @ poonam.burris@gmail.com for any further questions regarding this application
   <br>
-  [GitHub]https://github.com/PoonamBurris
+  - [GitHub]https://github.com/PoonamBurris
   
